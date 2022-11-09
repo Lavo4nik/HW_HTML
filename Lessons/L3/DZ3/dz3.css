@@ -1,0 +1,76 @@
+.main {
+    padding: 150px 0;
+    background-color: black;
+}
+
+p {
+    margin: 0px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.line_1 {
+    font-size: 26px;
+}
+
+.line_2 {
+    font-size: 30px;
+}
+
+.line_3 {
+    font-size: 32px;
+}
+
+.line_4 {
+    font-size: 34px;
+}
+
+.line_5 {
+    font-size: 37px;
+}
+
+.line_6 {
+    font-size: 46px;
+}
+
+.line_7 {
+    font-size: 52px;
+}
+
+.line_8 {
+    font-size: 59px;
+}
+
+.line_9 {
+    font-size: 66px;
+}
+
+.line_10 {
+    font-size: 71px;
+}
+
+.line_11 {
+    font-size: 77px;
+}
+
+.line_12 {
+    font-size: 86px;
+}
+
+.line_13 {
+    font-size: 93px;
+}
+
+.line_14 {
+    font-size: 93px;
+}
+
+.line_15 {
+    font-size: 120px;
+}
+
+.line_16 {
+    font-size: 120px;
+}

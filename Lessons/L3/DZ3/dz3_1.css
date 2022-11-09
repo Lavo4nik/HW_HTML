@@ -1,0 +1,35 @@
+body {
+    background-color: grey;
+    font-family: Calibri;
+}
+
+.main {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0.5% 30%;
+    padding: 40px 20px 0px 20px;
+    background-color: white;
+    font-size:24px;
+    white-space: pre-line;
+    border: 1px solid;
+}
+
+.block_1, .block_5{
+    color: #0c1087;
+}
+div.block_1 > div::first-letter {
+    font-size: 225%;
+}
+.block_2 {
+    text-align: right;
+    color: #0c1087;
+}
+.block_3 {
+    color: red;
+}
+.block_4 {
+    text-align: right;
+}
+.block_4 > b{
+    color: red;
+}

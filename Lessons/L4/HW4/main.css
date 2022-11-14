@@ -1,0 +1,49 @@
+.main {
+    width: auto;
+    height: auto;
+
+}
+
+.base {
+    width: 30%;
+    border: 1px solid;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10% 30%;
+}
+
+.list
+ {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+
+li {
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+li:last-child{
+    border: none;
+    margin-bottom: 0;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

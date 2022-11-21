@@ -1,0 +1,69 @@
+.main {
+    width: 300px;
+    margin: 50px auto;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 10px solid black;
+}
+
+.main_phone {
+    padding: 30px;
+}
+
+.main_title {
+
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.main_title>p {
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.title_order {
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+.main_order {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+input {
+    width: 26px;
+    height: 26px;
+}
+
+.choise_order {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.choise_order>div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.send_order {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 20px 0;
+}

@@ -1,34 +1,78 @@
-.main{
+.main {
     display: flex;
     align-items: flex-start;
-width: 60%;
-margin: auto;
-border: 1px solid lightgray;
-border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    font-family: sans-serif;
 }
-.input_form{
+
+.input_form {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
-    border-right: 1px solid lightgrey;
     width: 50%;
+    padding: 15px;
 }
-.input_form_label{
 
+.input_form_label {
+    margin-bottom: 10px;
+    color: #aaa7a7;
+    font-size: 14px;
 }
-.input_form_title{
 
+div.input_form>input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
-.cheklist_form{
+
+/* div.input_form > input:nth-child(2n){
+    background-color: rgb(179, 116, 40);
+} */
+input.input_form_title,
+input.input_form_doctype {
+    background-color: rgb(255 235 59 / 17%)
+}
+
+input.input_form_title::placeholder,
+input.input_form_doctype::placeholder {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+}
+
+input.input_form_route::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #585858;
+    font-weight: bold;
+}
+
+.cheklist_form {
     display: flex;
     width: 50%;
-
-
+    padding: 15px;
+    flex-direction: column;
+    border-left: 1px solid lightgrey;
 }
-.checklist_form_label{
 
+.cheklist_form_row {
+    padding: 10px 0;
 }
-.checklist_form_input{
+
+.checklist_form_label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #585858;
+}
+
+.cheklist_form_add_info {
+    color: grey;
 
 }

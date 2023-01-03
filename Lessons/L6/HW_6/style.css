@@ -1,0 +1,14 @@
+.main{
+ 
+}
+.months{
+    background-color: rgb(124, 77, 20);
+}
+.days{
+    display: flex;
+    background-color: rgb(124, 77, 20);
+}
+.day{
+    background-color: rgb(124, 77, 20);
+    font-size: 26px;
+}

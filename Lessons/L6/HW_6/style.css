@@ -1,9 +1,7 @@
 .main {
     background-color: rgba(234, 236, 226, 0.562);
     width: 549px;
-
     margin: auto;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: Open Sans, Roboto, PT sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -11,29 +9,21 @@
 
 .calendar {
     padding: 10px 15px;
-
-
 }
 
 .months {
-    /*    display: flex;
-    float: left;
-    text-transform: uppercase;
-    border: 1px solid black;
-    width: 100%; */
     display: flex;
     width: 100%;
     font-size: 10px;
     color: rgb(136, 133, 133);
 }
-.month:nth-child(4){
+
+.month:nth-child(4) {
     font-size: 14px;
     color: rgb(61, 60, 60);
 }
 
 .month {
-    /*     padding: 0px 21px;
-    border: 1px solid black;*/
     display: flex;
     justify-content: center;
     width: 100%;
@@ -58,7 +48,6 @@
 
     justify-content: space-between;
     flex-wrap: wrap;
-/*     border: 1px solid black; */
     width: 100%;
 
 }
@@ -67,14 +56,31 @@
     color: rgb(126, 126, 126);
     font-size: 14px;
     text-align: center;
-/*     background-color: grey;
-    border: 1px solid black; */
     width: 70px;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.day:nth-child(8),.day:nth-child(10),.day:nth-child(27){
+
+.day:nth-child(8),
+.day:nth-child(10),
+.day:nth-child(27) {
     color: rgb(240, 114, 114);
+}
+
+.day:nth-child(31),
+.day:nth-child(32),
+.day:nth-child(33),
+.day:nth-child(34),
+.day:nth-child(35) {
+    color: rgb(211, 207, 207);
+}
+
+.day>p {
+    padding: 10px;
+    border: 1px;
+    border-radius: 25%;
+    background-color: rgb(236, 163, 163);
+    color: white;
 }

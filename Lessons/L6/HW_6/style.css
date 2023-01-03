@@ -1,14 +1,33 @@
 .main{
- 
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
 }
 .months{
-    background-color: rgb(124, 77, 20);
+    display: flex;
+    float: left;
+    text-transform: uppercase;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+.month{
+    padding: 0px 21px;
+    border: 1px solid black;
+    width: 100%;
 }
 .days{
     display: flex;
-    background-color: rgb(124, 77, 20);
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
 }
 .day{
-    background-color: rgb(124, 77, 20);
+    margin: 30px;
     font-size: 26px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid black;
 }

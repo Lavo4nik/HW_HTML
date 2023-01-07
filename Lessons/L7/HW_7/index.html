@@ -11,39 +11,69 @@
 
 <body>
     <div class="main">
+        <p>1. Об'єм</p>
+        <p> Напишіть веб-додаток для розрахунку об'єму циліндра. Користувач вводить висоту циліндра і діаметр основи.</p>
         <div class="volume">
             <input type="text" name="" class="height" value="" placeholder="Введите высоту">
             <input type="text" name="" class="diameter" value="" placeholder="Введите диаметр">
             <button class="buttonVol">Посчитать</button>
             <span class="volume"></span>
         </div>
+        <p>2. Привітання</p>
+        <p>Запитайте в користувача його ім'я і виведіть у відповідь: "Привіт, його ім'я!".</p>
         <div class="greetings">
             <input type="text" name="" class="inputName" value="" placeholder="Как вас зовут?">
             <button class="say">Сказать</button>
             <span class="greeting"></span>
         </div>
+        <p>3. Периметр квадрата</p>
+        <p>Запитайте у користувача довжину сторони квадрата і виведіть периметр такого квадрата.</p>
         <div class="perimetre">
             <input type="text" name="" class="side" value="" placeholder="Введите сторону квадрата">
             <button class="buttonPer">Посчитать</button>
             <span class="perimetre"></span>
         </div>
+        <p>4. Швидкість </p>
+        <p>Запитайте в користувача відстань у км між двома містами та за скільки годин він хоче дістатися. Порахуйте швидкість, з якою необхідно рухатися, щоб встигнути вчасно.</p>
         <div class="speed">
             <input type="text" name="" value="" class="distance" placeholder="Расстояние в километрах">
             <input type="text" name="" value="" class="time" placeholder="За сколько времени нужно добраться в часах">
             <button class="buttonSpeed">Просчитать скорость</button>
             <span class="needSpeed"></span>
         </div>
-
+        <p>5. Навпаки</p>
+        <p>Запитайте у користувача тризначне число і виведіть його задом наперед. Для вирішення завдання вам знадобиться оператор % (залишок від ділення).</p>
         <div class="backward">
             <input type="text" name="" class="inputNum" value="" placeholder="Введите целое число">
             <button class="buttonBack">Перевернуть</button>
             <span class="resultBack"></span>
         </div>
-
+        <p>6. Температурний помічник.</p>
+        <p>Кевін щойно приїхав зі США і не може звикнути до нашої системи вимірювання температури. Напишіть код, де б він міг ввести нові для нього градуси в Цельсіях і отримати старі добрі Фаренгейти.</p>
         <div class="temperature">
             <input type="text" name="" class="inputC" value="" placeholder="Введите температуру в градусах">
             <button class="buttonTemp">Конвертировать в F</button>
             <span class="resultTemp"></span>
+        </div>
+        <p>7. Конвертер кольору.(Раздельный ввод)</p>
+        <p>Користувач вводить по черзі кольори (червоний, зелений, синій) у вигляді шістнадцяткового запису, а вивести йому цей колір у вигляді rgb(12,13,14)</p>
+        <p>#112233 --> rgb(17,34,51)</p>
+        <p>#f3e4a0 --> rgb(243,228,160)</p>
+        <div class="hexToRgb-separate">
+            <input type="text" name="" class="inputHex1" value="" placeholder="Введите красный">
+            <input type="text" name="" class="inputHex2" value="" placeholder="Введите зеленый">
+            <input type="text" name="" class="inputHex3" value="" placeholder="Введите синий">
+            <button class="buttonHTR-separate">Конвертировать в RBG</button>
+            <span class="resultRGB-separate"></span>
+        </div>
+        <p>7. Конвертер кольору.(Совместный ввод)</p>
+        <p>Користувач вводить по черзі кольори (червоний, зелений, синій) у вигляді шістнадцяткового запису, а вивести йому цей колір у вигляді rgb(12,13,14)</p>
+        <p>#112233 --> rgb(17,34,51)</p>
+        <p>#f3e4a0 --> rgb(243,228,160)</p>
+        <div class="hexToRgb">
+            <input type="text" name="" class="inputHex" value="" placeholder="Введите HEX">
+            <button class="buttonHTR">Конвертировать в RBG</button>
+            <span class="resultRGB"></span>
         </div>
     </div>
 </body>

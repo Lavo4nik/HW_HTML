@@ -1,5 +1,5 @@
 document.querySelector('.lucky').onclick = function () {
-    num = document.querySelector('.inputNum').value;
+    var num = document.querySelector('.inputNum').value;
     if (num.length == 6) {
         compute();
         if (fChar == lChar) {
@@ -14,8 +14,8 @@ document.querySelector('.lucky').onclick = function () {
 function compute() {
     var fNum = num.substr(0, 3);
     var lNum = num.substr(3, 3);
-    fChar = 0;
-    lChar = 0;
+    var fChar = 0;
+    var lChar = 0;
     for (i = 0; i <= 5; i++) {
         if (i < 3) {
             fChar = fChar + fNum % 10;

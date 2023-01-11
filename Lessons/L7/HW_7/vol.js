@@ -71,6 +71,6 @@ document.querySelector('.buttonHTR').onclick = function () {
         }
         n = n + 2;
     }
-    var rgb = r + '.' + g + '.' + b;
+    const rgb = r + '.' + g + '.' + b;
     document.querySelector('.resultRGB').innerHTML = 'rgb(' + rgb + ')';
 }

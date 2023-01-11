@@ -2,6 +2,7 @@ document.querySelector('.lucky').onclick = function () {
     const num = document.querySelector('.inputNum').value;
     if (num.length == 6) {
         compute();
+        
         if (fChar == lChar) {
             document.querySelector('.result').innerHTML = 'Повезло';
         } else {

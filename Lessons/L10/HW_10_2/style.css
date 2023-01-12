@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+.d-none {
+    border: 0;
+}
+
+.green {
+    background-color: #B7DDE8;
+}
+
+.orange {
+    background-color: #FCD5B4;
+}
+
+.lightgreen {
+    background-color: #D8E4BC;
+    border: 0;
+}

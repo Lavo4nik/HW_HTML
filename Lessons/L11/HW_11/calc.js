@@ -1,8 +1,8 @@
-document.querySelector('.send').onclick = function () {
-    const x = document.querySelector('.inputX').value;
-    const y = document.querySelector('.inputY').value;
-    document.querySelector('.result').innerHTML = (`Умножение ${x * y}     Деление ${x / y}     Вычитание ${x - y}     Сложение ${x + y}`);
-
-
-
+function qs(selector) {
+    return document.querySelector(selector);
+}
+qs('.send').onclick = function () {
+    let x = parseInt(qs('.inputX').value);
+    let y = parseInt(qs('.inputY').value);
+    qs('.result').innerText = (`Умножение ${x * y}     Деление ${x / y}     Вычитание ${x - y}     Сложение ${x + y}`);
 }

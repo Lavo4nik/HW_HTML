@@ -42,7 +42,7 @@ qs('.dnk-solution-result').onclick = function () {
             }
     
         } */
-        /* А потом я узнал об этом..... :((( */
+    /* А потом я узнал об этом..... :((( */
     for (const x of originalString) {
 
         if (x == 'T') {

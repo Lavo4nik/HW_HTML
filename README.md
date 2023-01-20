@@ -37,3 +37,5 @@
    - [ ] [*HW_14    (in progress)* ](none)
    - [x]  [HW_15   Найкоротше слово. ДНК
        ](https://lavo4nik.github.io/HW_HTML/Lessons/L15/HW_15/index.html)
+   - []  [HW_16   Chess. Figures.
+       ](https://lavo4nik.github.io/HW_HTML/Lessons/L15/HW_16/index.html)

@@ -11,4 +11,3 @@ qs('.result').onclick = function () {
     else
         qs('.result').innerText = 'Вы путушествуете на крыше';
 }
-
